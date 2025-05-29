@@ -1,0 +1,41 @@
+@use "_vars" as *
+
+* 
+  box-sizing: border-box 
+
+.site-header, .site-footer
+  background: #222
+  color: #fff
+  padding: 1rem
+  text-align: center
+
+body
+  font-family: sans-serif
+  margin: 0
+  padding: 0
+  background: #f4f4f4
+  overflow-x: hidden
+
+h1
+  font-size: 3rem
+  color: #333
+
+.container
+  display: grid
+  max-width: 1262.9px
+  padding-left: 31px
+  padding-right: 31px
+  margin: 0 auto
+  min-width: 360px
+  .border
+    border-top: 1px solid #d6d6d6
+    width: 100%
+  @media all and ($l)
+    padding-left: 31px
+    padding-right: 31px
+  @media all and ($m)
+    padding-left: 39px
+    padding-right: 39px
+  @media all and ($s)
+    padding-left: 16px
+    padding-right: 16px

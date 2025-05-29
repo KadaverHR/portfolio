@@ -1,0 +1,29 @@
+{% extends "src/html/base.njk" %}
+{% set siteName = "Портфолио" %}
+
+{% block content %}
+{% include "src/html/partials/header.njk" %}
+
+
+<div class="banner">
+  <div class="container">
+    <div class="banner__box">
+
+      <div>
+
+      </div>
+      <div id="scene">
+        <div class="banner__circle-box" data-depth="0.5">
+          <div class="banner__circle">
+          </div>
+        </div>
+        <div class="banner__img-box" data-depth="0.2">
+          <img class="banner__img" src="./assets/img/main.png" alt="">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% include "src/html/partials/footer.njk" %}
+{% endblock %}
