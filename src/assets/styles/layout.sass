@@ -1,7 +1,8 @@
-@use "_vars" as *
+@use 'variables' as *
+@use 'fonts'
 
-* 
-  box-sizing: border-box 
+*
+  box-sizing: border-box
 
 .site-header, .site-footer
   background: #222
@@ -10,11 +11,14 @@
   text-align: center
 
 body
-  font-family: sans-serif
+  font-family: $font-main
+  font-size: 20px
+  font-weight: 300
   margin: 0
   padding: 0
-  background: #f4f4f4
+  background: linear-gradient(123deg, #2c2c2c 0%, #1c1c1c 100%)
   overflow-x: hidden
+  min-height: 100vh
 
 h1
   font-size: 3rem

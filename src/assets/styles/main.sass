@@ -1,45 +1,10 @@
-@use "_vars" as *
-@use "layout" as *
+@use 'variables' as *
+@use './fonts'
+@use 'layout'
+@use 'baner'
+@use 'header'
+@use 'footer'
 
-#scene
-  // height: 100vh
-  // display: flex
-  justify-content: center
-  align-items: center
-  [data-depth]
-    // top: auto
-    // left: auto
-    // top: auto
-    // right: auto
-    display: grid
 
-.banner
-  background: linear-gradient(123deg, #2c2c2c 0%, #1c1c1c 100%)
-  &__box
-    display: grid
-    grid-template-columns: 471px 1fr
-  &__circle
-    border-radius: 100%
-    box-shadow: 0 0 152px 0 rgba(161, 104, 213, 0.42)
-    width: 575px
-    height: 575px
-    border: 67px solid #b564d4
-    display: grid
-    justify-self: center
-    position: relative
-    align-content: end
-    top: auto
-    bottom: -88px
-  &__img
-    width: 374px
-    height: 664px
-    object-fit: cover
-    display: grid
-    justify-self: center
-    align-self: center
-  &__img-box
-    right: 0
-    bottom: 0
-  &__circle-box
-    right: 0
-    bottom: 0
+
+// background-image: url('@/assets/img/main.png');

@@ -3,16 +3,23 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist"
   },
   "type": "module",
   "dependencies": {
     "parallax-js": "^3.1.0"
   },
   "devDependencies": {
+    "@vusion/webfonts-generator": "^0.8.0",
+    "fs-extra": "^11.3.0",
+    "glob": "^11.0.2",
     "nunjucks": "^3.2.4",
+    "otf2ttf": "^1.1.2",
     "sass": "^1.69.5",
     "vite": "^6.3.5",
-    "vite-plugin-nunjucks": "^0.2.0"
+    "vite-plugin-nunjucks": "^0.2.0",
+    "vite-plugin-static-copy": "^3.0.0"
   }
 }
