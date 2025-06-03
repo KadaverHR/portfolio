@@ -1,29 +1,13 @@
-{% extends "src/html/base.njk" %}
-{% set siteName = "Портфолио" %}
-
-{% block content %}
-{% include "src/html/partials/header.njk" %}
-
-
-<div class="banner">
-  <div class="container">
-    <div class="banner__box">
-
-      <div>
-
-      </div>
-      <div id="scene">
-        <div class="banner__circle-box" data-depth="0.5">
-          <div class="banner__circle">
-          </div>
-        </div>
-        <div class="banner__img-box" data-depth="0.2">
-          <img class="banner__img" src="/img/main.png" alt="">
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-{% include "src/html/partials/footer.njk" %}
-{% endblock %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="./main.jsx"></script>
+</body>
+</html>

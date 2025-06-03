@@ -1,3 +1,51 @@
 {
-  "siteName": "Vite Nunjucks Site"
+  "myStack": [
+    {
+      "title": "html",
+      "icon": "devicon-html5-plain-wordmark"
+    },
+    {
+      "title": "Sass",
+      "icon": "devicon-sass-original"
+    },
+    {
+      "title": "Git",
+      "icon": "devicon-git-plain"
+    },
+    {
+      "title": "Figma",
+      "icon": "devicon-figma-plain"
+    },
+    {
+      "title": "JavaScript",
+      "icon": "devicon-javascript-plain"
+    }
+  ],
+  "siteName": "Портфолио",
+"bannerContentList": [
+    {
+      "text": "Честно пишет &lt;div&gt; вместо &lt;article&gt;, но краснеет при этом",
+      "img": "/img/sry.svg",
+      "highlights": [
+        { "word": "&lt;div&gt;" },
+        { "word": "&lt;article&gt;" }
+      ]
+    },
+    {
+      "text": "Верит, что «адаптив придумаю потом» — валидная стратегия.",
+      "img": "/img/no.svg",
+      "highlights": [
+        { "word": "«адаптив придумаю потом»" }
+      ]
+    },
+    {
+      "text": "Уверена, что !important — это не грех, а крик души.",
+      "img": "/img/wow.svg",
+      "highlights": [
+        { "word": "!important" }
+      ]
+    }
+  ],
+  "bannerTitle": "Я Наташа - HTML-верcтальщик",
+  "bannerSubtitle": "Тот тип верстальщика, который:"
 }
